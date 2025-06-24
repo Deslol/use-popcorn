@@ -9,7 +9,7 @@ export default function NavigationBar({movies}) {
             <h1>usePopcorn</h1>
         </div>
         <input
-            className="search"
+            className={styles.search}
             type="text"
             placeholder="Search movies..."
             value={query}
